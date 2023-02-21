@@ -1,17 +1,26 @@
 git status => checks the status of all file
-git log => shows all commits
+
 git add --a => add all the files to the staging area
 git add <name of the file> => add the specific file to the staging area
 git add . => add all the files to the staging area
+
 git commit -m "message" => commits every staged file to the current branch with the following message
 git commit -a -m "message" => commits every tracked file to the current branch with the following message
+
 git rm <file to be removed> => removes a file 
 git mv <file to be moved> <path to be moved to> => can be used to move or rename a file
+
+git log => shows all commits
 git log -p => shows all the commits with their diff from the previous commits
 git log --stat => shows all the commits with their number of changes done
 git log --pretty=oneline => shows the commits in a single line, with each commit taking oneline each
 git log --pretty=short => shows all the commits but in a shorter words
+git log --since=n.days => shows all the commits in the last n days
+git log --since=n.weeks => shows all the commits in the last n weeks
 
 git diff => shows the changes that has been made in the tracked files before staging it
 git diff --staged => after adding the files to the staged area, it compares the changes made to the staged file with the previous commit
-git diff <commit_hash> <commit_hash> => compares two commits
+git diff <commit_hash> <commit_hash> => compares two commits    
+
+git restore --staged <filename> => removes a staged file from the staging area
+git restore <filename> => remove from tracking area

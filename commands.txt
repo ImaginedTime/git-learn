@@ -9,3 +9,8 @@ git rm <file to be removed> => removes a file
 git mv <file to be moved> <path to be moved to> => can be used to move or rename a file
 git log -p => shows all the commits with their diff from the previous commits
 git log --stat => shows all the commits with their number of changes done
+git log --pretty=oneline => shows the commits in a single line, with each commit taking oneline each
+git log --pretty=short => shows all the commits but in a shorter words
+
+git diff => shows the changes that has been made in the tracked files
+git diff x

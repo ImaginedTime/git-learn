@@ -12,5 +12,6 @@ git log --stat => shows all the commits with their number of changes done
 git log --pretty=oneline => shows the commits in a single line, with each commit taking oneline each
 git log --pretty=short => shows all the commits but in a shorter words
 
-git diff => shows the changes that has been made in the tracked files
-git diff x
+git diff => shows the changes that has been made in the tracked files before staging it
+git diff --staged => after adding the files to the staged area, it compares the changes made to the staged file with the previous commit
+git diff <commit_hash> <commit_hash> => compares two commits

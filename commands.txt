@@ -1,0 +1,9 @@
+git status => checks the status of all file
+git log => shows all commits
+git add --a => add all the files to the staging area
+git add <name of the file> => add the specific file to the staging area
+git add . => add all the files to the staging area
+git commit -m "message" => commits to the current branch with the following message
+git rm <file to be removed> => removes a file 
+git mv <file to be moved> <path to be moved to> => can be used to move or rename a file
+    

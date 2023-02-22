@@ -27,7 +27,7 @@ git restore --staged <filename> => removes a staged file from the staging area
 git checkout -- <filename.txt> => make this specific file the previous version of itself
 git checkout -f => roll back to the previous commit 
 
-git remote origin <git website> => creates a remote git
+git remote add origin <git website> => creates a remote git
 
 git push -u origin master => pushes the code on to the github repo
 

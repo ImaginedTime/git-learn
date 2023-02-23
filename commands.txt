@@ -31,7 +31,10 @@ git checkout -f => roll back to the previous commit
 
 git remote add origin <git website> => creates a remote git
 
-git push -u origin master => pushes the code on to the github repo
+git push -u origin master => pushes the master branch on to the github repo
+git push -u origin <branchName> => pushes the branch on to the github repo
+git push --all => pushes all the branches
+
 
 git config --global alias.<some alias> <property> => makes alias for a property. For ex- git config --global alias.s status means setting an alias for git status command to git s
 
@@ -39,6 +42,14 @@ git checkout -b <branchName> => Creates a new branch with the specified name
 git checkout <branchName> => goes to the specified branch
 
 git branch => list out the names of all the branches
+git branch -v => list out all the names of all the branches with their last commit hash and message
+git branch --merged => list out the branches that have been merged
+git branch --no-merged => list out the branches that have not been merged
+
+git branch -d <branchName> => tries to delete a branch, if it has already been merged or else gives as error that the branch has not been merged
+// if you still want to delete the branch eventhough it has not been merged
+// run the command again but with a capital D instead
+git branch -D <branchName> => deletes the branch, if the above failed
 
 git merge <branchName> => merges the branch
 // after resolving merge conflicts

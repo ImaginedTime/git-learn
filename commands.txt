@@ -23,6 +23,8 @@ git diff --staged => after adding the files to the staged area, it compares the 
 git diff <commit_hash> <commit_hash> => compares two commits    
 
 git restore --staged <filename> => removes a staged file from the staging area
+//use carfully the below operation
+git restore <filename> => gives back the previously commited version of the file
 
 git checkout -- <filename.txt> => make this specific file the previous version of itself
 git checkout -f => roll back to the previous commit 
@@ -33,4 +35,5 @@ git push -u origin master => pushes the code on to the github repo
 
 git config --global alias.<some alias> <property> => makes alias for a property. For ex- git config --global alias.s status means setting an alias for git status command to git s
 
-
+git checkout -b <branchName> => Creates a new branch with the specified name
+git checkout <branchName> => goes to the specified branch

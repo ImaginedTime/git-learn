@@ -39,3 +39,7 @@ git checkout -b <branchName> => Creates a new branch with the specified name
 git checkout <branchName> => goes to the specified branch
 
 git branch => list out the names of all the branches
+
+git merge <branchName> => merges the branch
+// after resolving merge conflicts
+// run git status, then git add ., then git commit -m "Message"

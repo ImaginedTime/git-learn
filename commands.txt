@@ -37,3 +37,5 @@ git config --global alias.<some alias> <property> => makes alias for a property.
 
 git checkout -b <branchName> => Creates a new branch with the specified name
 git checkout <branchName> => goes to the specified branch
+
+git branch => list out the names of all the branches

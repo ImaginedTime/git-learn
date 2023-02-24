@@ -35,6 +35,7 @@ git push -u origin master => pushes the master branch on to the github repo
 git push -u origin <branchName> => pushes the branch on to the github repo
 git push origin <branchName> => pushes the branch on to the github repo
 git push --all => pushes all the branches
+git push origin <branchName>:<someOtherBranchName> => pushes the branch on the github repo with the following other branch name\
 
 
 git config --global alias.<some alias> <property> => makes alias for a property. For ex- git config --global alias.s status means setting an alias for git status command to git s

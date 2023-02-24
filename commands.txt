@@ -1,3 +1,7 @@
+git init => initailizes a git repo
+// Use with care
+rm -rf .git => deletes the git repo
+
 git status => checks the status of all file
 
 git add --a => add all the files to the staging area

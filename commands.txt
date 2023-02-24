@@ -33,6 +33,7 @@ git remote add origin <git website> => creates a remote git
 
 git push -u origin master => pushes the master branch on to the github repo
 git push -u origin <branchName> => pushes the branch on to the github repo
+git push origin <branchName> => pushes the branch on to the github repo
 git push --all => pushes all the branches
 
 

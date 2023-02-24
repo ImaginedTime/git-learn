@@ -35,7 +35,3 @@ git push -u origin master => pushes the code on to the github repo
 
 git config --global alias.<some alias> <property> => makes alias for a property. For ex- git config --global alias.s status means setting an alias for git status command to git s
 
-git checkout -b <branchName> => Creates a new branch with the specified name
-git checkout <branchName> => goes to the specified branch
-duck fuck
-sdkjfsldjf

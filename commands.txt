@@ -31,7 +31,10 @@ git restore --staged <filename> => removes a staged file from the staging area
 git restore <filename> => gives back the previously commited version of the file
 
 git checkout -- <filename.txt> => make this specific file the previous version of itself
-git checkout -f => roll back to the previous commit 
+git checkout -f => roll back to the previous commit
+git checkout <commitHash> => roll back to some specific commit
+git reset --hard HEAD => make the repo as the previous commit
+git reset --hard <commit_hash> => make the repo as the specific commit
 
 git remote add origin <git website> => creates a remote git
 
@@ -40,7 +43,7 @@ git push -u origin <branchName> => pushes the branch on to the github repo
 git push origin <branchName> => pushes the branch on to the github repo
 git push --all => pushes all the branches
 git push origin <branchName>:<someOtherBranchName> => pushes the branch on the github repo with the following other branch name\
-
+git push -d origin <branchName> => deletes that branch from the remote github
 
 git config --global alias.<some alias> <property> => makes alias for a property. For ex- git config --global alias.s status means setting an alias for git status command to git s
 

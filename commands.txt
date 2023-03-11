@@ -34,7 +34,7 @@ git checkout -- <filename.txt> => make this specific file the previous version o
 git checkout -f => roll back to the previous commit
 git checkout <commitHash> => roll back to some specific commit
 git reset --hard HEAD => make the repo as the previous commit
-git reset --hard <commit_hash> => make the repo as the specific commit
+git reset --hard <commit_hash> => make the repo as the specific commit, and deletes all the commits after this specific commit
 
 git remote add origin <git website> => creates a remote git
 
